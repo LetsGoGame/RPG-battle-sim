@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "BattleEnemy.generated.h"
+#include "BattleBase.generated.h"
 
 UCLASS()
-class RPGBATTLESIM_API ABattleEnemy : public AActor
+class RPGBATTLESIM_API ABattleBase : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	ABattleEnemy();
+	ABattleBase();
 
 protected:
 	// Called when the game starts or when spawned
