@@ -43,8 +43,3 @@ void ABattleBase::ApplyDamage(int DamageAmount)
         // Here you could trigger a death animation or event
     }
 }
-
-void ABattleBase::Attack(int DamageAmount, ABattleBase* Enemy)
-{
-
-}

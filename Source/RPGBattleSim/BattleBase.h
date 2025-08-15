@@ -27,10 +27,11 @@ public:
 	int SPD = 1;
 
 
+
 	UFUNCTION(BlueprintCallable, Category = "Stats")
 	void ApplyDamage(int DamageAmount);
-	UFUNCTION(BlueprintCallable, Category = "Stats")
-	void Attack(int DamageAmount, ABattleBase* Target);
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Stats")
+	void Attack();
 
 protected:
 	// Called when the game starts or when spawned
